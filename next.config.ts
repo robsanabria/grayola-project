@@ -18,6 +18,10 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
+  distDir: '.next',
+  experimental: {
+    serverActions: true,
+  }
 };
 
 export default nextConfig;
