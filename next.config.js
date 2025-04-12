@@ -21,7 +21,7 @@ const nextConfig = {
   distDir: '.next',
   experimental: {
     serverActions: true,
-  }
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
