@@ -46,25 +46,15 @@ bash
 git clone https://github.com/robsanabria/grayola-project.git
 cd grayola-project
 npm install
-# o
+
 yarn install
 
 Ejecutá el proyecto:
 
 npm run dev
-# o
+
 yarn dev
 
 Abre: http://localhost:3000
 
 
-Tabla: profiles
-	•	id (uuid, PK)
-	•	role (client, project_manager, designer)
-	•	points_balance, created_at, updated_at
-
-📁 Tabla: projects
-	•	id (uuid, PK)
-	•	client_id, designer_id (FK)
-	•	status (pending, in_progress, completed)
-	•	title, description, points_cost, files, created_at, updated_at
